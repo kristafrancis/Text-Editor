@@ -20,12 +20,12 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Webpack Plugin',
+        title: 'JATE',
       }),
       new WebpackPwaManifest({
-          name: 'Contact Cards Application',
-          short_name: 'Contact Cards',
-          description: 'Keep track of important contacts!',
+          name: 'Text Editor Application',
+          short_name: 'Text Editor',
+          description: 'An application the edits text in the browser',
           background_color: '#7eb4e2',
           theme_color: '#7eb4e2',
           start_url: './',
